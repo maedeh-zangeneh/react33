@@ -1,0 +1,77 @@
+
+
+.counter-container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .button-container,
+  .like-dislike-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px; 
+    margin: 20px 0; 
+  }
+  
+  .counter-button {
+    padding: 12px 25px;
+    border: none; 
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s; 
+  }
+  
+ 
+  .counter-button:hover {
+    transform: scale(1.05); 
+  }
+  
+  
+  .increase {
+    background-color: #4caf50; /* Green */
+    color: white;
+  }
+  
+  .decrease {
+    background-color: #f44336; /* Red */
+    color: white;
+  }
+  
+  .reset {
+    background-color: #2196f3; /* Blue */
+    color: white;
+  }
+  
+  .like {
+    background-color: #ffeb3b; /* Yellow */
+    color: black;
+  }
+  
+  .dislike {
+    background-color: #f44336; /* Red */
+    color: white;
+  }
+  
+
+  .increase:hover {
+    background-color: #45a049; /* Darker green */
+  }
+  
+  .decrease:hover {
+    background-color: #e53935; /* Darker red */
+  }
+  
+  .reset:hover {
+    background-color: #1976d2; /* Darker blue */
+  }
+  
+  .like:hover {
+    background-color: #fdd835; /* Darker yellow */
+  }
+  
+  .dislike:hover {
+    background-color: #c62828; /* Darker red */
+  }
+  
